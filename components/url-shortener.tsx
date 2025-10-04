@@ -89,12 +89,6 @@ export function URLShortener({ onUrlShortened }: URLShortenerProps) {
 
   return (
     <Card className="w-full max-w-2xl mx-auto">
-      <CardHeader>
-        <CardTitle className="flex items-center gap-2">
-          <Link className="h-5 w-5" />
-          URL Shortener
-        </CardTitle>
-      </CardHeader>
       <CardContent>
         <form onSubmit={handleSubmit}>
           <FieldGroup>
